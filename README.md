@@ -16,11 +16,9 @@ This project is centered around training a cutting-edge Transformer model to rec
 
 3. **Model Training:**
    - Dive into the training process of a Transformer model designed for ASL fingerspelling recognition. Explore the architecture and witness the model learning the intricacies of sign language.
+
 4. **Hyperparameter Tuning:**
    - Fine-tune the model's hyperparameters to enhance its performance. Utilize techniques such as RandomSearch to search through the hyperparameter space and find the optimal configuration for your Transformer model.
-
-
-
 
 ## Getting Started
 
@@ -28,7 +26,6 @@ This project is centered around training a cutting-edge Transformer model to rec
 
 - [Python](https://www.python.org/) (>=3.6)
 - [TensorFlow](https://www.tensorflow.org/) (>=2.0)
-
 
 3. Navigate through the notebooks in the `main/` directory to understand and run the project.
 
@@ -39,5 +36,9 @@ Feel free to contribute to the project by sharing insights, optimizations, or ad
 ## Acknowledgments
 
 Special thanks to [Google](https://www.google.com/) for providing the ASL Fingerspelling Recognition dataset and fostering innovation in machine learning.
+
+Special thanks to the [Keras team](https://keras.io/examples/audio/transformer_asr/) for their valuable insights and resources on Transformer models in audio processing.
+
+
 
 
