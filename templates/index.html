@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hand and Pose Tracking</title>
+</head>
+<body>
+    <h1>Hand and Pose Tracking</h1>
+    <img src="{{ url_for('video_feed') }}" alt="Webcam Feed">
+    <button onclick="stopVideo()">Stop</button>
+
+    <script>
+        function stopVideo() {
+            fetch('/stop_video')
+                .then(response => response.text())
+                .then(data => console.log(data));
+        }
+    </script>
+    <label for="output">Output:</label>
+    <textarea id="output" rows="4" cols="50" readonly></textarea>
+</body>
+</html>
