@@ -28,6 +28,10 @@ This project is centered around training a cutting-edge Transformer model to rec
 - [TensorFlow](https://www.tensorflow.org/) (>=2.0)
 
 3. Navigate through the notebooks in the `main/` directory to understand and run the project.
+## Output
+
+After successfully training the ASL Fingerspelling Recognition model, you can use it to predict and translate ASL fingerspelling from new video frames. Here's a snippet of Out put
+
 
 ## Contribution
 
