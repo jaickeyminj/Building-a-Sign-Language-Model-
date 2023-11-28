@@ -32,7 +32,7 @@ This project is centered around training a cutting-edge Transformer model to rec
 
 After successfully training the ASL Fingerspelling Recognition model, you can use it to predict and translate ASL fingerspelling from new video frames. Here's a snippet of Out put
 
-##Accurany and Prediction
+## Accurany and Prediction
 ![Screenshot](https://github.com/jaickeyminj/Building-a-Sign-Language-Model-/blob/main/Prediction_Accuracy.png)
 
 ## Contribution
