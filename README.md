@@ -38,7 +38,14 @@ After successfully training the ASL Fingerspelling Recognition model, you can us
 
 ## Accurany and Prediction
 ![Screenshot](https://github.com/jaickeyminj/Building-a-Sign-Language-Model-/blob/main/Prediction_Accuracy.png)
- ![Screenshot 2023-11-28 225722](https://github.com/jaickeyminj/Building-a-Sign-Language-Model-/assets/76790652/979bc92f-9b9c-4177-bccc-83a2b45b4726)
+![Screenshot 2023-11-28 225722](https://github.com/jaickeyminj/Building-a-Sign-Language-Model-/assets/76790652/979bc92f-9b9c-4177-bccc-83a2b45b4726)
+
+## Running
+Before running the `python main.py` we need to change change path at line 31 and 33. We also need to create two folders named as `land` and `tf` to store our parquet files and tfrecords.`templates` folder contains the index.html to demonstrate a simple UI interface for user to interact. Sample image of UI is given below.
+Link - `http://127.0.0.1:5000/`
+
+![Screenshot](https://github.com/jaickeyminj/Building-a-Sign-Language-Model-/blob/main/UI_Image.png)
+
 
 ## Contribution
 Feel free to contribute to the project by sharing insights, optimizations, or additional features. Create issues, provide feedback.
