@@ -30,8 +30,12 @@ This project is centered around training a cutting-edge Transformer model to rec
 3. Navigate through the notebooks in the `main/` directory to understand and run the project.
 ## Output
 
-After successfully training the ASL Fingerspelling Recognition model, you can use it to predict and translate ASL fingerspelling from new video frames. Here's a snippet of Out put
+After successfully training the ASL Fingerspelling Recognition model, you can use it to predict and translate ASL fingerspelling from new video frames. Here's a snippet of Output
+![Screenshot](https://github.com/jaickeyminj/Building-a-Sign-Language-Model-/blob/main/final_training_validation_accuracy_plot.png)
+![Screenshot](https://github.com/jaickeyminj/Building-a-Sign-Language-Model-/blob/main/final_training_validation_loss_plot.png)
 
+## Accurany and Prediction
+![Screenshot](https://github.com/jaickeyminj/Building-a-Sign-Language-Model-/blob/main/Prediction_Accuracy.png)
 
 ## Contribution
 
